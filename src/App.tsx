@@ -5,20 +5,19 @@ import ProjectCard from './components/ProjectCard';
 import { projects } from './data/projects';
 
 function App() {
-    const [name, setName] = useState("Ricky Cheung");
     const [email, setEmail] = useState("rcheung1997@gmail.com");
 
     return (
         <div className="container">
             {/* Navbar */}
-            <Navbar name={name} />
+            <Navbar/>
 
             <main className="main-content">
 
                 {/* Intro */}
                 <header className="intro">
-                    <h1>Hi, I'm {name}</h1>
-                    <p>I am a 3rd-year CS Student @ SFU with a passion for building web applications</p>
+                    <h1>Hi, I'm Ricky!</h1>
+                    <p>I am a 3rd-year Computing Science SoSy Student @ SFU with a passion for both building web applications and troubleshooting technical issues</p>
                 </header>
 
                 {/* Projects */}
@@ -47,7 +46,7 @@ function App() {
                         <a href="https://www.linkedin.com/in/ricky-c0997/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
                     </div>
                     <p>
-                        &copy; 2025, {name}
+                        &copy; 2026, Ricky Cheung
                     </p>
                 </footer>
             </main>
