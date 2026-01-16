@@ -1,5 +1,12 @@
 
-const ProjectCard = (props) => {
+interface ProjectProps {
+    title: string;
+    description: string;
+    tech: string[];
+    link: string;
+};
+
+const ProjectCard = (props : ProjectProps) => {
 
     const {title, description, tech, link} = props;
 

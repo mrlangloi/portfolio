@@ -1,5 +1,9 @@
 
-const Navbar = (props) => {
+interface NavbarProps {
+    name: string;
+}
+
+const Navbar = (props : NavbarProps) => {
 
     const {name} = props;
 
