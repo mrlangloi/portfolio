@@ -8,10 +8,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const Navbar = () => {
 
     return (
-        <nav className="navbar">
+        <nav className="nav-content">
             <div className="nav-brand">
                 <a href="/">
-                    <p>rcheung</p>
+                    <p>ricky c.</p>
                 </a>
             </div>
 
