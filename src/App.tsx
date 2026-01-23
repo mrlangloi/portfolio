@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './App.css';
 import Footer from './components/Footer';
+import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import ProjectCard from './components/ProjectCard';
 import { projects } from './data/projects';
@@ -16,11 +17,7 @@ function App() {
             <main className="main-content">
 
                 {/* Intro */}
-                <header className="intro">
-                    <h1>Hi, I'm Ricky!</h1>
-                    <h2>I am a 3rd-year Computing Science SoSy Student @ SFU.</h2>
-                    <h2>I have a knack for building applications and troubleshooting technical issues.</h2>
-                </header>
+                <Hero />
 
                 {/* Featured Projects */}
                 <section id="projects" className="featured-projects">
