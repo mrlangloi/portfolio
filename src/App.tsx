@@ -26,6 +26,7 @@ function App() {
                         {projects.map((project) => (
                             <ProjectCard
                                 key={project.id}
+                                id={project.id}
                                 title={project.title}
                                 description={project.description}
                                 tech={project.tech}

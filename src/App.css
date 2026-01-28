@@ -26,6 +26,7 @@
     --card-bg: #1E293B;
     --border-color: rgba(56, 189, 248, 0.2);
     --footer-bg: #080c17;
+    --spacing-unit: 0.25rem;
 }
 
 body {
